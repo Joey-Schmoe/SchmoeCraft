@@ -1,0 +1,13 @@
+name = "ServerPack"
+author = "JoeySchmoe"
+version = "1.00"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9191b2fdb4aa75306ccb00d7770edf4f3a4abea7fe8399bf583af6290f9b6352"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"
