@@ -1,0 +1,13 @@
+name = "WorldWeaver: New Dawn"
+filename = "worldweaver-21.0.30.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R8uGDQpB/versions/21KphEsG/worldweaver-21.0.30.jar"
+hash-format = "sha512"
+hash = "4a136bc2f4b86c4d3e2ba75c691f241a8af1c16ce1580f1c205f3a6c1a904cd881e0df369564f2d1011769756fc99e8d42593268a575c9545fd8bda430dc3846"
+
+[update]
+[update.modrinth]
+mod-id = "R8uGDQpB"
+version = "21KphEsG"
