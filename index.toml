@@ -5,6 +5,11 @@ file = ".gitattributes.txt"
 hash = "f70d755466b101646b043fe3c62c4f8a39eae827c1a2a303a2d39ccd93f534f8"
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
+metafile = true
+
+[[files]]
 file = "mods/bclib-neoforge.pw.toml"
 hash = "c3c9a50495bda856f0d71e5f71f13dff3a66ce5b41fd70d2ff385f31bef819a4"
 metafile = true
@@ -70,6 +75,21 @@ hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
 
 [[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "f2cbcb3d01017133313e1594cb89f052923592b7fa0c78eb9b6d09fb6e03bfb5"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
 metafile = true
@@ -80,6 +100,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f2849c357f9c82d017ff71c6d5e91ac8e51d6b0f2de9e7ae8d95bfb81759cd63"
+metafile = true
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
@@ -87,6 +112,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "ef65836e005bd42a0f40df30a94eba1ad7ee5ed3194b11eafbeadc64edb44252"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
@@ -122,6 +152,26 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
+metafile = true
+
+[[files]]
+file = "mods/trade-cycling.pw.toml"
+hash = "b2dcebb6846f2835104715e6baf93a54fb6e606f2731b2fbfa35c3dd22c01874"
+metafile = true
+
+[[files]]
+file = "mods/traveler-tool-belt.pw.toml"
+hash = "738b26f9df9c5cce2b20f031f7fac8888f0f489035cc785edf0358c7232af458"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "8570c3bf9c3811db6a0bf36218270df792dc9de8231103100e1f3e2f1ac41e01"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
 
 [[files]]
