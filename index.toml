@@ -289,11 +289,6 @@ hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
 
 [[files]]
-file = "mods/world-preview-fork.pw.toml"
-hash = "9a644d713b5a892f83cac245c7d87fdfc9380d2616f0d7867671d18d0c8b525f"
-metafile = true
-
-[[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
 hash = "c56ce9e2c1734c9b5f5cfd53ec1d758fd6df4053635c10814408bb9b0432d5ae"
 metafile = true
