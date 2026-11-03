@@ -5,6 +5,10 @@ file = ".gitattributes.txt"
 hash = "f70d755466b101646b043fe3c62c4f8a39eae827c1a2a303a2d39ccd93f534f8"
 
 [[files]]
+file = "config/waystones-common.toml"
+hash = "6095cad9a5fb9e7edf260b3cbc65e87e75963e1a7e721d3aec19e3e3d66a1bd6"
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
