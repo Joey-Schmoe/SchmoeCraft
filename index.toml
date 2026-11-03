@@ -5,6 +5,10 @@ file = ".gitattributes.txt"
 hash = "f70d755466b101646b043fe3c62c4f8a39eae827c1a2a303a2d39ccd93f534f8"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "816fd710408f5e285604606b6c2f3d9154eaa6798b4b184a1bdcbffc0c9e273d"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "6095cad9a5fb9e7edf260b3cbc65e87e75963e1a7e721d3aec19e3e3d66a1bd6"
 
@@ -265,7 +269,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
