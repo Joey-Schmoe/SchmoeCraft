@@ -10,7 +10,7 @@ hash = "70d11ccd3f720d7ed42319596a19c6437bcf0ade408e99bb856ce3ad295b2125"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "49eebfb737c9c7dab965aba601e6264d72357bd6c84abd2df2d5248e3b67da05"
+hash = "845b85e656e750dd8e274eea3e73db01fad238b666c8b512d341e6df407ee12b"
 
 [[files]]
 file = "config/terralith.json"
