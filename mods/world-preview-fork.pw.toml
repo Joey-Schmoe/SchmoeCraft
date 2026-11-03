@@ -1,0 +1,13 @@
+name = "World Preview (Unofficial Port)"
+filename = "world_preview-1.5.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UzHQGpqb/versions/qRdFmepe/world_preview-1.5.5.jar"
+hash-format = "sha512"
+hash = "da0971bf3783bcb620a2872ef7d5efc9835ee11dbb672b20d6b30e9121e7de0269444babc3578e843d0b9a307b96e5fa22d66a0a5261a4dabd343b8680a2bc68"
+
+[update]
+[update.modrinth]
+mod-id = "UzHQGpqb"
+version = "qRdFmepe"
