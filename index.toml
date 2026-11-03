@@ -9,6 +9,10 @@ file = "config/DistantHorizons.toml"
 hash = "816fd710408f5e285604606b6c2f3d9154eaa6798b4b184a1bdcbffc0c9e273d"
 
 [[files]]
+file = "config/terralith.json"
+hash = "d23cd01c6ed104856efbb118887ffe9d7f58e5135c59c49a779339631880fa91"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "6095cad9a5fb9e7edf260b3cbc65e87e75963e1a7e721d3aec19e3e3d66a1bd6"
 
