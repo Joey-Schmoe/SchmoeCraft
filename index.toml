@@ -5,8 +5,20 @@ file = "config/DistantHorizons.toml"
 hash = "816fd710408f5e285604606b6c2f3d9154eaa6798b4b184a1bdcbffc0c9e273d"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "70d11ccd3f720d7ed42319596a19c6437bcf0ade408e99bb856ce3ad295b2125"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "b5a9d7803eeb87ac094e30108c97427c94213ac7add968f63d6fb4e8f23c49d3"
+
+[[files]]
 file = "config/terralith.json"
 hash = "d23cd01c6ed104856efbb118887ffe9d7f58e5135c59c49a779339631880fa91"
+
+[[files]]
+file = "config/travelersbackpack-server.toml"
+hash = "66d52b3e2a5b7b9bc580b0c4001e77600fc93ca4d49ca210ccdb705c67e06f84"
 
 [[files]]
 file = "config/waystones-common.toml"
