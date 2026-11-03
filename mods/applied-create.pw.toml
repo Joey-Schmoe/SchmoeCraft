@@ -1,0 +1,13 @@
+name = "Applied Create"
+filename = "appliedcreate-1.21.1-1.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c2ba09e5828c6389ce1634d8e48313891a45015"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9306615
+project-id = 1474758
