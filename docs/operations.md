@@ -1,126 +1,124 @@
-# Setup and Operation
-## Server Setup
-### Docker
+# Development & Maintanence
+## Process
+Every change follows this cycle:
+1. Open new git branch
 
-Using the itzg/minecraft-server image
-
-1. Create and/or set PACKWIZ_URL environment variable on the container:
-
-    ```text
-    PACKWIZ_URL=<pack-url>
+    ```bash
+    git switch -c <new-branch-name>
     ```
 
-2. Set world_type environment variable on the container:
+2. [Make changes to the pack](#editing)
 
-   ```text
-   LEVEL_TYPE=wover:betterx
-   ```
+3. Update documentation
 
-3. Start container. Modpack is updated/downloaded automatcally on start-up
+3. [Publish changes to Github](#publishing)
 
-### Dedicated Server  
+4. Restart the server to fetch updated pack
 
-```bash
-java -jar packwiz-installer-bootstrap.jar -g -s server <pack-url>
-```
+    >**Current workflow hard-links the server and client to the `main` branch, which serves for both testing *and* full deployment. Alternative workflow would set up a second server targeting a `test` branch with a duplicated world folder from `main`**
 
-- `-g` runs without a graphical window.
-- `-s server` installs only the mods marked for the server side.
+## Editing modlist
 
-### Client Setup
----
-PRISM LAUNCHER:  
-Create a New Instance, matching the Minecraft and NeoForge versions used by the pack.
-Download `packwiz-installer-bootstrap.jar` from the packwiz-installer GitHub repo and place it in the instance's `.minecraft` folder.  
+>**packwiz-refresh must be run after <u>ANY</u> changes to the modpack files, excepting files in the /docs folder**
 
- Under Edit -> Settings -> Custom Commands - > Pre-launch Command, enter `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/Joey-Schmoe/SchmoeCraft/main/pack.toml`
-
-### Chunk/LOD Generation
-**!!! Chunky and Distant Horizons must never be active at the same time !!!**
-1. Ensure Chunky is loaded, and Distant Horizons is disabled
-2. Generate world with type "BetterX"
-3. Access RCON - all following commands are entered here
-4. `chunky world [overworld/nether/the_end]`
-5. `chunky center [x] [z]`
-6. `chunky radius [radius-in-blocks]
-7. `chunky start`
-8. Wait for pregen to complete - track progress in the docker logs
-9. Swap Chunky for Distant Horizons
-10. In RCON, enter `dh pregen start overworld [x] [z] [radius-in-chunks]
-11. Repeat above for other dimensions, if needed
-
-## Mod Management
 ### Adding a mod
+
 ```bash
-packwiz <mr/cf> add <mod-slug>` *or* "<text-search>"
-packwiz refresh  
-git add .  
-git commit -m "<commit message>"  
-git push origin <branch-name>
+packwiz mr add <mod-slug>
 ```
+
+- "mr" searches Modrinth. Use "cf" instead for CurseForge
+- Instead of a slug you can use search text in quotes: `packwiz mr add "mod name"`.
 
 ### Removing a mod
-**Option A:** Remove with packwiz command  
+
 ```bash
 packwiz remove <mod-name>
-packwiz refresh
-git add .
-git commit -m "[commit message]
-git push origin [branch-name]
-```  
-
-**OR**
-
-**Option B:** Remove manually  
->Manually remove file from /mods folder  
-`packwiz refresh`  
-`git add .`  
-`git commit -m "[commit message]"`  
-`git push origin [branch-name]`
-
-### Git Deployment
+```
 
 ### Updating mods
----
-**Single Mod:**  
->`packwiz update [mod-name]`  
-`packwiz refresh`  
 
-**All Mods:**  
->`packwiz update --all`  
-`packwiz refresh`
+Singe mod:
 
-## Useful Commands
+```bash
+packwiz update <mod-name>
+```
 
-### Container Console
----
-**Access RCON CLI**  
->`rcon-cli`
+All mods:
+
+>**Updating terrain generation mods is likely to cause seams and other issues - use with care**
+
+```bash
+packwiz update -all
+```
+
+## Editing config files
+
+>**Any files in the /config folder will be pushed to the server and client on load, overwriting existing files in the process. All configuration should be done in the modpacks /config files.**
+
+>**packwiz doesn't generate config files on it's own - they must first be copied over from the server's minecraft/config folder**
+
+1. Document proposed change in /docs/config.md, including default value and reason for change
+
+2. Apply change to the file
+
+## Publishing
+
+1. Commit changes to packwiz and update modlist.md using custom command
+  
+    ```bash
+    packwiz-refresh
+    ```
+
+2. Add changes to git
+
+    ```bash
+    git add .
+    git commit -m "<what was changed>"
+    git push origin <branch-name>
+    ```
+
+3. Merge changes onto the server's active branch
+
+    ```bash
+    git switch main
+    git pull origin main
+    git merge <branch-name>
+    git push origin main
+    ```
+
+    >**This step is an artifcat of the current, flawed dev process. The server and client both point at the `main` branch. In a future setup, we will merge to a `test` branch in this step, then merge *that* into `main` after testing**
+
+## Troubleshooting
+
+| Symptom | Cause | Fix |
+|---|---|---|
+| Server crashes on startup with "Chunky is not loaded" | Chunky and Distant Horizons both active | Disable one. See [World Generation](setup.md#world-generation). |
+| Pack fails to download; hash mismatch | Git changed the line endings of pack files | Run `git add --renormalize` then commit and push. |
+| Watchdog server shutdown during Chunky pregen | Chunky extended a tick past `max-tick-time` |  Run pregen in stages (5,000 -> 7,500 -> 10,000 radius) or temporarily disable watchdog during pregen with `MAX_TICK_TIME=-1` in the container. 
+
+## Reference
+
+### RCON Access
+
+Access RCON from docker container terminal
+
+```bash
+rcon-cli
+```
 
 ### Packwiz
----
-**Add mod to pack with slug**  
->`packwiz [mr/cf] (mr = modrinth, cf = curseforge) add [mod-slug]`
 
-**Add mod to pack via search**  
->`packwiz [mr/cf] (mr = modrinth, cf = curseforge) add "search-text"`
+Custom PowerShell script which runs `packwiz refresh` and then logs `packwiz modlist -v` to `/docs/modlist.md`
 
-**After making *any* changes to the files**  
->`packwiz refresh`
-
-**Print modlist to terminal**  
->`packwiz list`
-
-**Print modlist with full filename and version**  
->`packwiz list -v`
+```bash
+packwiz-refresh
+```
 
 ### Git
----
-**Create and switch to new branch**  
->`git switch -c [branch-name]`
 
-**Merge branch into main**  
->`git switch main`  
-`git pull origin main` <-- brings local repo up-to-date with remote  
-`git merge [branch-name]`  
-`git push origin main`
+Repair line endings
+
+```bash
+git add --renormalize .
+```
