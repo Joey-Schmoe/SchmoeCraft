@@ -1,9 +1,31 @@
-## Setup
-### Server Setup
----
-DOCKER: ensure the container has the variable `PACKWIZ_URL` set to the correct URL. Example: `https://raw.githubusercontent.com/Joey-Schmoe/SchmoeCraft/main/pack.toml`  
+# Setup and Operation
+## Server Setup
+### Docker
 
-DEDICATED: Run `java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/Joey-Schmoe/SchmoeCraft/main/pack.toml`
+Using the itzg/minecraft-server image
+
+1. Create and/or set PACKWIZ_URL environment variable on the container:
+
+    ```text
+    PACKWIZ_URL=<pack-url>
+    ```
+
+2. Set world_type environment variable on the container:
+
+   ```text
+   LEVEL_TYPE=wover:betterx
+   ```
+
+3. Start container. Modpack is updated/downloaded automatcally on start-up
+
+### Dedicated Server  
+
+```bash
+java -jar packwiz-installer-bootstrap.jar -g -s server <pack-url>
+```
+
+- `-g` runs without a graphical window.
+- `-s server` installs only the mods marked for the server side.
 
 ### Client Setup
 ---
@@ -29,21 +51,25 @@ Download `packwiz-installer-bootstrap.jar` from the packwiz-installer GitHub rep
 
 ## Mod Management
 ### Adding a mod
----
->`packwiz [mr/cf] add [mod-slug]` *or* `"[text-search]"`  
-`packwiz refresh`  
-`git add .`  
-`git commit -m "[commit message]"`  
-`git push origin [branch-name]`
+```bash
+packwiz <mr/cf> add <mod-slug>` *or* "<text-search>"
+packwiz refresh  
+git add .  
+git commit -m "<commit message>"  
+git push origin <branch-name>
+```
 
 ### Removing a mod
----
 **Option A:** Remove with packwiz command  
->`packwiz remove [mod-name]`  
-`packwiz refresh`  
-`git add .`  
-`git commit -m "[commit message]"`  
-`git push origin [branch-name]`  
+```bash
+packwiz remove <mod-name>
+packwiz refresh
+git add .
+git commit -m "[commit message]
+git push origin [branch-name]
+```  
+
+**OR**
 
 **Option B:** Remove manually  
 >Manually remove file from /mods folder  
@@ -51,6 +77,8 @@ Download `packwiz-installer-bootstrap.jar` from the packwiz-installer GitHub rep
 `git add .`  
 `git commit -m "[commit message]"`  
 `git push origin [branch-name]`
+
+### Git Deployment
 
 ### Updating mods
 ---

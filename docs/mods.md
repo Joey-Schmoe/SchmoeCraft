@@ -96,6 +96,8 @@ Interactive, high-density early-game storage system
     * Not currently available for 1.21.1
 * Enchantment Descriptions
   * Show tooltip on enchanted items with brief description of their effect
+* FallingTree
+  * Allows instant breaking of a tree by breaking the bottom-most block
 * Jade
   * Display information about the targeted block
 * Jade Sable Compat
