@@ -25,6 +25,11 @@ file = "config/waystones-common.toml"
 hash = "6095cad9a5fb9e7edf260b3cbc65e87e75963e1a7e721d3aec19e3e3d66a1bd6"
 
 [[files]]
+file = "disabled_mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
 metafile = true
@@ -72,11 +77,6 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
