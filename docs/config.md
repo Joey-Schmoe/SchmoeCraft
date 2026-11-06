@@ -32,6 +32,16 @@
   showGarbageCollectorWarning = true -> false
   ``` 
 
+### Falling Tree
+
+`/config/fallingtree.json'
+
+- Increase max cuttable tree size
+
+  ```text
+  "maxSize": 100 -> 200
+  ```
+
 ### Tectonic
 
 >In Tectonics' config, lowering numbers tends to *increase* effects, rather then reduce them.
