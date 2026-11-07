@@ -1,5 +1,5 @@
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -33,13 +33,13 @@
 		"Middle Y" = 0
 
 [categories]
-	automation = true
+	automation = false
 	building = true
 	management = true
 	tools = true
 	tweaks = true
-	world = true
-	mobs = true
+	world = false
+	mobs = false
 	client = true
 	experimental = true
 	oddities = true
@@ -94,7 +94,7 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
+	"Celebratory Lamps" = false
 	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
@@ -104,30 +104,30 @@
 	Hedges = true
 	"Hollow Logs" = true
 	"Industrial Palette" = true
-	"Japanese Palette" = true
-	"Leaf Carpet" = true
-	Midori = true
-	"More Brick Types" = true
+	"Japanese Palette" = false
+	"Leaf Carpet" = false
+	Midori = false
+	"More Brick Types" = false
 	"More Mud Blocks" = true
 	"More Potted Plants" = true
 	"Nether Brick Fence Gate" = true
-	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
-	Rope = true
+	"Rainbow Lamps" = false
+	"Raw Metal Bricks" = false
+	Rope = false
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
-	Stools = true
-	"Sturdy Stone" = true
-	Thatch = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
-	"Variant Ladders" = true
-	"Vertical Planks" = true
+	Stools = false
+	"Sturdy Stone" = false
+	Thatch = false
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Furnaces" = false
+	"Variant Ladders" = false
+	"Vertical Planks" = false
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -274,7 +274,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transferring" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -327,19 +327,19 @@
 
 [tools]
 	Abacus = true
-	"Ambient Discs" = true
-	"Ancient Tomes" = true
-	"Beacon Redirection" = true
-	"Bottled Cloud" = true
+	"Ambient Discs" = false
+	"Ancient Tomes" = false
+	"Beacon Redirection" = false
+	"Bottled Cloud" = false
 	"Color Runes" = true
-	"Endermosh Music Disc" = true
-	"Parrot Eggs" = true
-	"Pathfinder Maps" = true
-	Pickarang = true
-	"Seed Pouch" = true
-	"Skull Pikes" = true
+	"Endermosh Music Disc" = false
+	"Parrot Eggs" = false
+	"Pathfinder Maps" = false
+	Pickarang = false
+	"Seed Pouch" = false
+	"Skull Pikes" = false
 	"Slime In A Bucket" = true
-	"Torch Arrow" = true
+	"Torch Arrow" = false
 	Trowel = true
 
 		[tools.abacus.highlight_color]
@@ -501,24 +501,24 @@
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = true
 	"Better Elytra Rocket" = true
-	"Campfires Boost Elytra" = true
+	"Campfires Boost Elytra" = false
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
-	"Dyeable Item Frames" = true
-	Emotes = true
+	"Dragon Scales" = false
+	"Dyeable Item Frames" = false
+	Emotes = false
 	"Enhanced Ladders" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Gold Tools Have Fortune" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Hoe Harvesting" = true
 	"Horses Swim" = true
 	"Improved Sponges" = true
 	"Lock Rotation" = true
-	"Magma Keeps Concrete Powder" = true
-	"Map Washing" = true
+	"Magma Keeps Concrete Powder" = false
+	"Map Washing" = false
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
 	"More Villagers" = true
@@ -526,16 +526,16 @@
 	"Pat The Dogs" = true
 	"Petals On Water" = true
 	"Pig Litters" = true
-	"Poison Potato Usage" = true
+	"Poison Potato Usage" = false
 	"Reacharound Placing" = true
 	"Renewable Spore Blossoms" = true
-	"Replace Scaffolding" = true
+	"Replace Scaffolding" = false
 	"Safer Creatures" = true
 	"Shulker Packing" = true
 	"Simple Harvest" = true
 	"Slabs To Blocks" = true
-	"Slimes To Magma Cubes" = true
-	"Snow Golem Player Heads" = true
+	"Slimes To Magma Cubes" = false
+	"Snow Golem Player Heads" = false
 	"Utility Recipes" = true
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
@@ -739,7 +739,7 @@
 		#Can you craft a boat around a chest to directly make a chest boat?
 		"Enable Chest Boats" = true
 		#Can you craft four chests at once using logs?
-		"Logs To Chests" = true
+		"Logs To Chests" = false
 		#Can Coral be crafted into dye?
 		"Coral To Dye" = true
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
@@ -747,19 +747,19 @@
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Does Dragon Breath return a bottle when used as a reagent or material?
-		"Effective Dragon Breath" = true
+		"Effective Dragon Breath" = false
 		#Can torches be used as fuel in furnaces?
-		"Torches Burn" = true
+		"Torches Burn" = false
 		#Can bones be smelted down to bone meal?
-		"Bone Meal Utility" = true
+		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
 		"Charcoal To Black Dye" = true
 		#Can two Logs be used instead of a Chest to make a Hopper?
-		"Easy Hopper" = true
+		"Easy Hopper" = false
 		#Can two Logs be used to craft 16 sticks?
-		"Easy Sticks" = true
+		"Easy Sticks" = false
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
-		"Smelt Raw Ore Blocks" = true
+		"Smelt Raw Ore Blocks" = false
 
 [world]
 	#(Ashen Trees)
@@ -1540,15 +1540,15 @@
 
 [client]
 	"Auto Walk Keybind" = true
-	"Back Button Keybind" = true
+	"Back Button Keybind" = false
 	"Buckets Show Inhabitants" = true
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
-	"Microcrafting Helper" = true
+	"Microcrafting Helper" = false
 	"Soul Candles" = true
 	"Usage Ticker" = true
 	"Uses For Curses" = true

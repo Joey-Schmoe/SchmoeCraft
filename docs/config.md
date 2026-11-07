@@ -112,3 +112,91 @@
   ```text
   warpRequirements = ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)" <...>] ->  ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.10) <...>]
   ```
+
+## Quark
+`/config/quark-common.toml`
+
+	"Enable 'q' Button" = [-true-]{+false+}
+@@ -36 +36 @@
+	automation = [-true-]{+false+}
+@@ -41,2 +41,2 @@
+	world = [-true-]{+false+}
+	mobs = [-true-]{+false+}
+@@ -97 +97 @@
+	"Celebratory Lamps" = [-true-]{+false+}
+@@ -107,4 +107,4 @@
+	"Japanese Palette" = [-true-]{+false+}
+	"Leaf Carpet" = [-true-]{+false+}
+	Midori = [-true-]{+false+}
+	"More Brick Types" = [-true-]{+false+}
+@@ -114,3 +114,3 @@
+	"Rainbow Lamps" = [-true-]{+false+}
+	"Raw Metal Bricks" = [-true-]{+false+}
+	Rope = [-true-]{+false+}
+@@ -120,8 +120,8 @@
+	Stools = [-true-]{+false+}
+	"Sturdy Stone" = [-true-]{+false+}
+	Thatch = [-true-]{+false+}
+	"Variant Bookshelves" = [-true-]{+false+}
+	"Variant Chests" = [-true-]{+false+}
+	"Variant Furnaces" = [-true-]{+false+}
+	"Variant Ladders" = [-true-]{+false+}
+	"Vertical Planks" = [-true-]{+false+}
+@@ -130 +130 @@
+	"More Stone Variants" = [-true-]{+false+}
+@@ -277 +277 @@
+	"Hotbar Changer" = [-true-]{+false+}
+@@ -330,4 +330,4 @@
+	"Ambient Discs" = [-true-]{+false+}
+	"Ancient Tomes" = [-true-]{+false+}
+	"Beacon Redirection" = [-true-]{+false+}
+	"Bottled Cloud" = [-true-]{+false+}
+@@ -335,6 +335,6 @@
+	"Endermosh Music Disc" = [-true-]{+false+}
+	"Parrot Eggs" = [-true-]{+false+}
+	"Pathfinder Maps" = [-true-]{+false+}
+	Pickarang = [-true-]{+false+}
+	"Seed Pouch" = [-true-]{+false+}
+	"Skull Pikes" = [-true-]{+false+}
+@@ -342 +342 @@
+	"Torch Arrow" = [-true-]{+false+}
+@@ -504 +504 @@
+	"Campfires Boost Elytra" = [-true-]{+false+}
+@@ -509,3 +509,3 @@
+	"Dragon Scales" = [-true-]{+false+}
+	"Dyeable Item Frames" = [-true-]{+false+}
+	Emotes = [-true-]{+false+}
+@@ -513 +513 @@
+	"Glass Shard" = [-true-]{+false+}
+@@ -515 +515 @@
+	"Grab Chickens" = [-true-]{+false+}
+@@ -520,2 +520,2 @@
+	"Magma Keeps Concrete Powder" = [-true-]{+false+}
+	"Map Washing" = [-true-]{+false+}
+@@ -529 +529 @@
+	"Poison Potato Usage" = [-true-]{+false+}
+@@ -532 +532 @@
+	"Replace Scaffolding" = [-true-]{+false+}
+@@ -537,2 +537,2 @@
+	"Slimes To Magma Cubes" = [-true-]{+false+}
+	"Snow Golem Player Heads" = [-true-]{+false+}
+@@ -742 +742 @@
+		"Logs To Chests" = [-true-]{+false+}
+@@ -750 +750 @@
+		"Effective Dragon Breath" = [-true-]{+false+}
+@@ -752 +752 @@
+		"Torches Burn" = [-true-]{+false+}
+@@ -754 +754 @@
+		"Bone Meal Utility" = [-true-]{+false+}
+@@ -758 +758 @@
+		"Easy Hopper" = [-true-]{+false+}
+@@ -760 +760 @@
+		"Easy Sticks" = [-true-]{+false+}
+@@ -762 +762 @@
+		"Smelt Raw Ore Blocks" = [-true-]{+false+}
+@@ -1543 +1543 @@
+	"Back Button Keybind" = [-true-]{+false+}
+@@ -1548 +1548 @@
+	"Greener Grass" = [-true-]{+false+}
+@@ -1551 +1551 @@
+	"Microcrafting Helper" = [-true-]{+false+}

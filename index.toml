@@ -14,7 +14,7 @@ hash = "f41648fbc38cb6dcf1b8bf19a6250cf223a6634def4f86b3636062baa98e792a"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "413c7266146aeba3083ba7e5a9546f678ac00c1d7ff1721ca4a224fcc1a41318"
+hash = "1afe6475fc9d960cd74494da4549d0ec292e9e07953683736fd5fc40bb3c8589"
 
 [[files]]
 file = "config/tectonic.json"
@@ -461,3 +461,7 @@ metafile = true
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
+
+[[files]]
+file = "word_changes.txt"
+hash = "f69156745d1032744360626b5abb4a8fcae3ff1b2e24f7c6603ee0e98dc6f3e8"
