@@ -111,6 +111,8 @@ Interactive, high-density early-game storage system
   * Item that allows player to search for the location of specific biomes
 * Pick Up Notifier
   * Shows on-screen notification for picked-up items
+* Quark
+  * Many, many QoL changes
 * Trade Cycling
   * Re-roll unlocked villager trades with a button on the trade screen 
 * Traveler Tool Belt
