@@ -13,6 +13,10 @@ file = "config/fallingtree.json"
 hash = "f41648fbc38cb6dcf1b8bf19a6250cf223a6634def4f86b3636062baa98e792a"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "413c7266146aeba3083ba7e5a9546f678ac00c1d7ff1721ca4a224fcc1a41318"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "adb1aad57a65338a1747f1b9e19caf68a71a928035db2a977a8ccc48ee1c7292"
 
