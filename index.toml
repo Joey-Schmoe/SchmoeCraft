@@ -484,7 +484,7 @@ metafile = true
 
 [[files]]
 file = "packwiz-refresh.ps1"
-hash = "ae9034b792325152d2eddffa36bef64e4274cf0ed32c95954f92bd90b2b1ae17"
+hash = "ee47755c6959fc8ab54959b55651e883993e8654d2038d7d9f9f23f5352c0e3a"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
