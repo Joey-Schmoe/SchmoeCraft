@@ -1,3 +1,4 @@
 # Exclude docs
 /docs/**
 /README.md
+/packwiz-refresh.ps1
