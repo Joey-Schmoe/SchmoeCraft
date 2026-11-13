@@ -77,6 +77,9 @@ Logistics system centered on Laser Nodes - a Node placed against a storage block
 #### Storage Drawers
 Interactive, high-density early-game storage system
 
+#### Chipped
+Large variety of block variants, with Create: Chipped compat mod
+
 ### Quality-of-Life
 * BetterF3
   * Configurable, cleaner F3 HUD
