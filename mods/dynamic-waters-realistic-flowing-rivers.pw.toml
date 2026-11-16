@@ -1,0 +1,13 @@
+name = "Dynamic Waters: Realistic Flowing Rivers"
+filename = "dynamicwaters-13.1.1-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wL4lvEci/versions/r4iJrgbS/dynamicwaters-13.1.1-neoforge%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "a9231159b67c4194b95d248e6b13c4eaace7240843a265b6ab90c383f6c8640941c1e64034229ca0ed4c712e3cbd5e602086963c1c799d026998b0f00081f39d"
+
+[update]
+[update.modrinth]
+mod-id = "wL4lvEci"
+version = "r4iJrgbS"

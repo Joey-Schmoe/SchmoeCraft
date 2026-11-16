@@ -1,0 +1,13 @@
+name = "Create: Resource Tweaks"
+filename = "create-resource-tweaks-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef7ac27b719d09741ae16d98ca24315eb7261a65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9642222
+project-id = 1808239
