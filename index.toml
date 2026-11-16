@@ -13,6 +13,82 @@ file = "config/fallingtree.json"
 hash = "f41648fbc38cb6dcf1b8bf19a6250cf223a6634def4f86b3636062baa98e792a"
 
 [[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/enderbloom_grove.json"
+hash = "13ab142264f2a1b65af3f8bef7078500cdaa790665f1bb257081e8b93121c8c9"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/enderkeep_courtyard.json"
+hash = "91247f2dc0924c8e212bae9654a435d5853e641a71d97a1204ba3be88b63cb43"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/enderpin_spikes.json"
+hash = "4f0e7d3c8ff8ee595e19a6454fca1d28f503836b34703d9fffe605f160903a12"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/endscraps.json"
+hash = "e8bae67bcc5474cb5cdc6fb5eb8c75159c8ff017e8556a177f507e3b2647d0c4"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship.json"
+hash = "71b0bc764c4046e5fee4d727e47b1ec56a89170c248f4afd5d4064bc6cd1d906"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_basic.json"
+hash = "fd970dc479b2cfcd4356da8cd894e61fb12b82b90d56a42f976ac89d2d590a48"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_crashed_2.json"
+hash = "1ac9faa5a836f8a85ef0704211e9cf28d94cbf64e194a4842eefc6bf2f282d1b"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_crashed_deepslate.json"
+hash = "71aad99c8498bf3c32c9fa43c023c8673bbe4449767e84be8a99e3328131cff6"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_deepslate.json"
+hash = "fb45b656fe24df7617c46b3cb3cccc4ae35bed2dbc34c020d5efe799e9630ebd"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_deepslate_2.json"
+hash = "f3d00038c83b2ba704a32d83ebc364a24475d0fe2596077455861beab959bb20"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mega_ship_deepslate_3.json"
+hash = "6eb0fc74ee695f657162df129e262d17c1e2340b539b505b0bb39294cbc39176"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/monolith.json"
+hash = "f857d9e1d805cb4211a6695fe23d0368eddd32c5501e86151c99f47b0924c72e"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/mythic_garden.json"
+hash = "1ecb01a66bd8fcc17e1e0f9a6072eaf9cd241318e8c1bbb83170fdeb47590df8"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mes/worldgen/structure_set/placid_prairie.json"
+hash = "68f59a6f2c1d5843ed5f2d72639a720f4db33a01521e992ed189ce654d97338f"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mns/worldgen/structure_set/mega_arenas.json"
+hash = "e1ebfb800d1181af1760911b39f73ec16697057e38bbef04d3d472e50745ec61"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mns/worldgen/structure_set/mega_fortress.json"
+hash = "f9756c911db343af6205fc23683a96f228b05fe30abd7e17e3fdfd0c32b67d74"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mns/worldgen/structure_set/sandy_skull.json"
+hash = "6c6833012a57900c825086f27b81741b8f54168086090eab82b0171059ae069a"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/data/mns/worldgen/structure_set/train.json"
+hash = "64908d098fcaa0f74b1c3793982432adaf0cc7f253ecdbcd9fb602d6d1b5635b"
+
+[[files]]
+file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/pack.mcmeta"
+hash = "bc84ca5e1c750badd09e5440abadcb6ab87bab5a47dfe0d2e6658b01cbfa1064"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "1afe6475fc9d960cd74494da4549d0ec292e9e07953683736fd5fc40bb3c8589"
 
@@ -75,11 +151,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
-metafile = true
-
-[[files]]
-file = "mods/betternether-neoforge.pw.toml"
-hash = "35ad9db98f1a331c617ceaf9425b12a3e071533ee56d180cdf6616c48ee9b018"
 metafile = true
 
 [[files]]

@@ -1,0 +1,11 @@
+{
+  "structures": [
+    { "structure": "mns:dragon_arena", "weight": 1 }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 472859103,
+    "spacing": 500,
+    "separation": 100
+  }
+}
