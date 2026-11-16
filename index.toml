@@ -86,7 +86,7 @@ hash = "64908d098fcaa0f74b1c3793982432adaf0cc7f253ecdbcd9fb602d6d1b5635b"
 
 [[files]]
 file = "config/paxi/datapacks/schmoecraft_moogs_tweaks/pack.mcmeta"
-hash = "bc84ca5e1c750badd09e5440abadcb6ab87bab5a47dfe0d2e6658b01cbfa1064"
+hash = "2a26ea38c563ed28ff4928ddba64239d5bc5df12a40e06e1bbae23ed3b0ce079"
 
 [[files]]
 file = "config/quark-common.toml"
