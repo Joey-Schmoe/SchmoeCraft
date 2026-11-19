@@ -294,6 +294,11 @@ hash = "424a4b375348670dc9c4ca4566198c485557d59a83cc0e0eb94908f7ac54814b"
 metafile = true
 
 [[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
+metafile = true
+
+[[files]]
 file = "mods/emi-for-create.pw.toml"
 hash = "09acd0f1cfb4dcb38ae9059f32f3db645539f8c5f23f71865def21726245e661"
 metafile = true
@@ -331,6 +336,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "184c6768f11e0c33c22c104397ad559c5b9337c709d1d05c8e9c93891dcddaee"
 metafile = true
 
 [[files]]
