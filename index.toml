@@ -179,6 +179,11 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
+metafile = true
+
+[[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "48d92eb61acf8e2b6b1a659765d6ee1386bf439cf32f8de0dfa6eb0d737f7778"
 metafile = true
@@ -291,6 +296,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-waters-realistic-flowing-rivers.pw.toml"
 hash = "424a4b375348670dc9c4ca4566198c485557d59a83cc0e0eb94908f7ac54814b"
+metafile = true
+
+[[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "9f511e824978b45d8d90244e921dafcbb9bc01d1e4aced66afac71740ffa5ff6"
 metafile = true
 
 [[files]]
@@ -551,6 +561,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "mods/yori3os-grappling-hooks.pw.toml"
+hash = "e571d53402434837f031754547bd3f90c21ea958db40f4ffdfb6eb8416a781d5"
 metafile = true
 
 [[files]]
